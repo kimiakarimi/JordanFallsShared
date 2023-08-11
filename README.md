@@ -15,7 +15,7 @@ RStan_codes.R- RStan code needed to run the models. The "rstan" (https://github.
 # Example
 Step 1: Install "rstan" and "rstudioapi" packages. 
 
-Step 2: Compile the "stanmodelcode_TN_base" annual model (line #5 in the "RStan_codes.R" code) .
+Step 2: Compile the "stanmodelcode_TN_base" model (line #5 in the "RStan_codes.R" code) .
 
 Step 3: Read the base model input data set (data_base.rds), if necessary (line #737)
 
