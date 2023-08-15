@@ -95,7 +95,6 @@ vector [nr] H_r;			//swine for aggregating subwatersheds
 vector [nr] Cw_r;		//cows  for aggregating subwatersheds
 vector [nr] y;				//loading
 vector [nr] ly_hat;
-vector [nr] y;
 // Loop to determine export for each watershed-year
 for(i in 1:nr){
     //Looping to aggregate subwatersheds and corresponding stream and reservoir retention.
