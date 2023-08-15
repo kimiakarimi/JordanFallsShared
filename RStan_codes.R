@@ -83,7 +83,7 @@ vector [nr] D;			//To compile urban with PIC
 vector [nr] W;			//To compile undeveloped urban with PIC
 vector [nr] Dch; 		 	//To compile dischargers with stream/reservoir losses
 vector [nr] alpha_vals;		// Watershed indicator
-vector [nr] A;			//Agriculture vector
+vector [nr] A;_lc			//Agriculture vector
 vector [nr] D_lc;		//Urban  vector		
 vector [nr] W_lc;		//Undeveloped  vector
 vector [nr] Disch;		//point source dischargers
