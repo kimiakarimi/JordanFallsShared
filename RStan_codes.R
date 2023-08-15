@@ -35,7 +35,6 @@ vector [nl] l_loss_res;           //reservoir losses for subwatersheds
 vector [nl] ag;                   //agriculture area in subwatershed
 vector [nl] dev;               //Urban area in subwatershed
 vector [nl] wild;			            //undeveloped area in subwatershed
-vector [nl] tot_l;			          //total size of subwatershed
 int l_start [nr];			            //index to link subwatersheds to LMSs
 int l_end [nr];			              //index to link subwatersheds to LMSs
 int d_start [nr];			            //index to link dischargers to LMSs
@@ -209,7 +208,6 @@ vector [nl] ag_unbuf;             //unbuffered agriculture area in subwatershed
 vector [nl] dev_buf;               //buffered urban area in subwatershed
 vector [nl] dev_unbuf;            //Unbuffered urban area in subwatershed
 vector [nl] wild;			            //undeveloped area in subwatershed
-vector [nl] tot_l;			          //total size of subwatershed
 int l_start [nr];			            //index to link subwatersheds to LMSs
 int l_end [nr];			              //index to link subwatersheds to LMSs
 int d_start [nr];			            //index to link dischargers to LMSs
@@ -392,7 +390,6 @@ vector [nl] ag;               //agriculture area in subwatershed
 vector [nl] dev_scm;               //urban area in subwatershed with SCM
 vector [nl] dev_noscm;            //urban area in subwatershed without SCM
 vector [nl] wild;			            //undeveloped area in subwatershed
-vector [nl] tot_l;			          //total size of subwatershed
 int l_start [nr];			            //index to link subwatersheds to LMSs
 int l_end [nr];			              //index to link subwatersheds to LMSs
 int d_start [nr];			            //index to link dischargers to LMSs
@@ -576,7 +573,6 @@ vector [nl] scm_unbuf;            //unbuffered urban area with SCM in subwatersh
 vector [nl] buf;                  //buffered urban area without SCM in subwatershed
 vector [nl] unbuf;                //Unbuffered urban area without SCM in subwatershed
 vector [nl] wild;			            //undeveloped area in subwatershed
-vector [nl] tot_l;			          //total size of subwatershed
 int l_start [nr];			            //index to link subwatersheds to LMSs
 int l_end [nr];			              //index to link subwatersheds to LMSs
 int d_start [nr];			            //index to link dischargers to LMSs
