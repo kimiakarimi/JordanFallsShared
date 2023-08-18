@@ -1,5 +1,5 @@
 # JordanFallsShare
-The files here include data sets and codes for the following dissertaion chapter: Assessing Controls on Nutrient Loading at the Watershed Scale through Data-Driven Modeling.
+The files here include data sets and codes for the following dissertation chapter: Assessing Controls on Nutrient Loading at the Watershed Scale through Data-Driven Modeling.
 
 Items in this repository:
 
