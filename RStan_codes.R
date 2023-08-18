@@ -733,23 +733,23 @@ generated quantities {
 data_base <- readRDS("./data_base.rds") #load input data set for the base model, if necessary
 #run the base model (data is the list of data sets. For other parameters, return to the function description)
 model_base = stan(model_code=stanmodelcode_TN_base, data=data_base, iter=iter, 
-             warmup=warmup, thin=, chains=3,cores=3,
+             warmup=warmup, thin=thin, chains=3,cores=3,
              control = list(adapt_delta =adapt_delta ,max_treedepth =max_treedepth ))
 
 data_buffer <- readRDS("./data_buffer") #load input data set for the base model, if necessary
 #run the buffer model 
 model_buffer = stan(model_code=stanmodelcode_TN_buffer, data=data_buffer, iter=iter, 
-                  warmup=warmup, thin=, chains=3,cores=3,
+                  warmup=warmup, thin=thin, chains=3,cores=3,
                   control = list(adapt_delta =adapt_delta ,max_treedepth =max_treedepth ))
 
 data_scm <- readRDS("./data_scm") #load input data set for the base model, if necessary
 #run the scm model 
 model_scm = stan(model_code=stanmodelcode_TN_scm, data=data_scm, iter=iter, 
-                    warmup=warmup, thin=, chains=3,cores=3,
+                    warmup=warmup, thin=thin, chains=3,cores=3,
                     control = list(adapt_delta =adapt_delta ,max_treedepth =max_treedepth ))
 
 data_buffer_scm <- readRDS("./data_buffer_scm") #load input data set for the base model, if necessary
 #run the scm and buffer model 
 model_buffer_scm = stan(model_code=stanmodelcode_TN_scm_buffer, data=data_buffer_scm, iter=iter, 
-                 warmup=warmup, thin=, chains=3,cores=3,
+                 warmup=warmup, thin=thin, chains=3,cores=3,
                  control = list(adapt_delta =adapt_delta ,max_treedepth =max_treedepth ))
