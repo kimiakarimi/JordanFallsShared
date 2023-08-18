@@ -17,6 +17,6 @@ Step 1: Install "rstan" and "rstudioapi" packages.
 
 Step 2: Compile the "stanmodelcode_TN_base" model (line #5 in the "RStan_codes.R" code) .
 
-Step 3: Read the base model input data set (data_base.rds), if necessary (line #737)
+Step 3: Read the base model input data set (data_base.rds), if necessary (line #736)
 
-Step 4: Run the stan function (line #739). Suggest using the following parameters: iter=4000, warmup=2000, thin=5, chains=3,cores=3,adapt_delta =0.99 ,max_treedepth =25. The estimated runtime on desktop is about one day. Note that more iterations and warmup steps may improve model convergence.
+Step 4: Run the stan function (line #738). Suggest using the following parameters: iter=4000, warmup=2000, thin=5, chains=3,cores=3,adapt_delta =0.99 ,max_treedepth =25. The estimated runtime on desktop is about one day. Note that more iterations and warmup steps may improve model convergence.
